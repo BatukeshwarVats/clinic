@@ -29,17 +29,17 @@ A backend service for managing clinic appointments, doctors, and patients using 
 Clone the repository:
 
 ```bash
-git clone [https://github.com/yourusername/clinic-management-system.git]
-cd clinic-management-system
+git clone [https://github.com/BatukeshwarVats/clinic.git]
+cd clinic
 ```
 
 Create .env file
 
 ```bash
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-DATABASE_USERNAME=postgres
-DATABASE_PASSWORD=batukeshwar
+DATABASE_HOST=DB_IP_ADDRESS
+DATABASE_PORT=DB_PORT_NUMBER
+DATABASE_USERNAME=DB_USER_NAME
+DATABASE_PASSWORD=YOUR_PASSWORD
 DATABASE_NAME=clinic
 ```
 
